@@ -1,0 +1,250 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Applications/MAMP/htdocs/bobalbert/wp-content/themes/balbertfoundation',
+5 verbose install   [ 'node-sass',
+5 verbose install     'grunt',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-sass',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-uglify' ] ]
+6 info preinstall foundationpress-libsass-template@5.4.6
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt@~0.4.1', null ]
+9 verbose cache add name=undefined spec="grunt@~0.4.1" args=["grunt@~0.4.1",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt@~0.4.1',
+10 verbose parsed url   path: 'grunt@~0.4.1',
+10 verbose parsed url   href: 'grunt@~0.4.1' }
+11 verbose cache add [ 'grunt-contrib-watch@~0.5.3', null ]
+12 verbose cache add name=undefined spec="grunt-contrib-watch@~0.5.3" args=["grunt-contrib-watch@~0.5.3",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'grunt-contrib-watch@~0.5.3',
+13 verbose parsed url   path: 'grunt-contrib-watch@~0.5.3',
+13 verbose parsed url   href: 'grunt-contrib-watch@~0.5.3' }
+14 verbose cache add [ 'grunt-sass@~0.8.0', null ]
+15 verbose cache add name=undefined spec="grunt-sass@~0.8.0" args=["grunt-sass@~0.8.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'grunt-sass@~0.8.0',
+16 verbose parsed url   path: 'grunt-sass@~0.8.0',
+16 verbose parsed url   href: 'grunt-sass@~0.8.0' }
+17 verbose cache add [ 'grunt-contrib-copy@~0.4.1', null ]
+18 verbose cache add name=undefined spec="grunt-contrib-copy@~0.4.1" args=["grunt-contrib-copy@~0.4.1",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'grunt-contrib-copy@~0.4.1',
+19 verbose parsed url   path: 'grunt-contrib-copy@~0.4.1',
+19 verbose parsed url   href: 'grunt-contrib-copy@~0.4.1' }
+20 verbose cache add [ 'grunt-contrib-concat@~0.3.0', null ]
+21 verbose cache add name=undefined spec="grunt-contrib-concat@~0.3.0" args=["grunt-contrib-concat@~0.3.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'grunt-contrib-concat@~0.3.0',
+22 verbose parsed url   path: 'grunt-contrib-concat@~0.3.0',
+22 verbose parsed url   href: 'grunt-contrib-concat@~0.3.0' }
+23 verbose cache add name="grunt" spec="~0.4.1" args=["grunt","~0.4.1"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '~0.4.1',
+24 verbose parsed url   path: '~0.4.1',
+24 verbose parsed url   href: '~0.4.1' }
+25 verbose addNamed [ 'grunt', '~0.4.1' ]
+26 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+27 verbose cache add name="grunt-contrib-watch" spec="~0.5.3" args=["grunt-contrib-watch","~0.5.3"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '~0.5.3',
+28 verbose parsed url   path: '~0.5.3',
+28 verbose parsed url   href: '~0.5.3' }
+29 verbose addNamed [ 'grunt-contrib-watch', '~0.5.3' ]
+30 verbose addNamed [ null, '>=0.5.3-0 <0.6.0-0' ]
+31 verbose cache add name="grunt-sass" spec="~0.8.0" args=["grunt-sass","~0.8.0"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '~0.8.0',
+32 verbose parsed url   path: '~0.8.0',
+32 verbose parsed url   href: '~0.8.0' }
+33 verbose addNamed [ 'grunt-sass', '~0.8.0' ]
+34 verbose addNamed [ null, '>=0.8.0-0 <0.9.0-0' ]
+35 verbose cache add name="grunt-contrib-copy" spec="~0.4.1" args=["grunt-contrib-copy","~0.4.1"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '~0.4.1',
+36 verbose parsed url   path: '~0.4.1',
+36 verbose parsed url   href: '~0.4.1' }
+37 verbose addNamed [ 'grunt-contrib-copy', '~0.4.1' ]
+38 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+39 verbose cache add [ 'grunt-contrib-uglify@~0.2.7', null ]
+40 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.2.7" args=["grunt-contrib-uglify@~0.2.7",null]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.2.7',
+41 verbose parsed url   path: 'grunt-contrib-uglify@~0.2.7',
+41 verbose parsed url   href: 'grunt-contrib-uglify@~0.2.7' }
+42 verbose cache add [ 'node-sass@~0.7.0', null ]
+43 verbose cache add name=undefined spec="node-sass@~0.7.0" args=["node-sass@~0.7.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'node-sass@~0.7.0',
+44 verbose parsed url   path: 'node-sass@~0.7.0',
+44 verbose parsed url   href: 'node-sass@~0.7.0' }
+45 verbose cache add name="grunt-contrib-concat" spec="~0.3.0" args=["grunt-contrib-concat","~0.3.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~0.3.0',
+46 verbose parsed url   path: '~0.3.0',
+46 verbose parsed url   href: '~0.3.0' }
+47 verbose addNamed [ 'grunt-contrib-concat', '~0.3.0' ]
+48 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+49 silly lockFile 766a3bd3-grunt-0-4-1 grunt@~0.4.1
+50 verbose lock grunt@~0.4.1 /Users/balbert/.npm/766a3bd3-grunt-0-4-1.lock
+51 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
+52 verbose lock grunt-contrib-watch@~0.5.3 /Users/balbert/.npm/b469febc-grunt-contrib-watch-0-5-3.lock
+53 silly lockFile 2a6e6e05-grunt-sass-0-8-0 grunt-sass@~0.8.0
+54 verbose lock grunt-sass@~0.8.0 /Users/balbert/.npm/2a6e6e05-grunt-sass-0-8-0.lock
+55 silly lockFile c84f658a-grunt-contrib-copy-0-4-1 grunt-contrib-copy@~0.4.1
+56 verbose lock grunt-contrib-copy@~0.4.1 /Users/balbert/.npm/c84f658a-grunt-contrib-copy-0-4-1.lock
+57 silly lockFile 0e44e68e-grunt-contrib-concat-0-3-0 grunt-contrib-concat@~0.3.0
+58 verbose lock grunt-contrib-concat@~0.3.0 /Users/balbert/.npm/0e44e68e-grunt-contrib-concat-0-3-0.lock
+59 verbose cache add name="grunt-contrib-uglify" spec="~0.2.7" args=["grunt-contrib-uglify","~0.2.7"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: '~0.2.7',
+60 verbose parsed url   path: '~0.2.7',
+60 verbose parsed url   href: '~0.2.7' }
+61 verbose addNamed [ 'grunt-contrib-uglify', '~0.2.7' ]
+62 verbose addNamed [ null, '>=0.2.7-0 <0.3.0-0' ]
+63 silly lockFile 55f336b7-grunt-contrib-uglify-0-2-7 grunt-contrib-uglify@~0.2.7
+64 verbose lock grunt-contrib-uglify@~0.2.7 /Users/balbert/.npm/55f336b7-grunt-contrib-uglify-0-2-7.lock
+65 verbose cache add name="node-sass" spec="~0.7.0" args=["node-sass","~0.7.0"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '~0.7.0',
+66 verbose parsed url   path: '~0.7.0',
+66 verbose parsed url   href: '~0.7.0' }
+67 verbose addNamed [ 'node-sass', '~0.7.0' ]
+68 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+69 silly lockFile 04ad39d3-node-sass-0-7-0 node-sass@~0.7.0
+70 verbose lock node-sass@~0.7.0 /Users/balbert/.npm/04ad39d3-node-sass-0-7-0.lock
+71 silly lockFile 766a3bd3-grunt-0-4-1 grunt@~0.4.1
+72 error Error: Attempt to unlock grunt@~0.4.1, which hasn't been locked
+72 error     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+72 error     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+72 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:41:20
+72 error     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+72 error     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+72 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+72 error     at Object.oncomplete (fs.js:107:15)
+73 error If you need help, you may report this *entire* log,
+73 error including the npm and node versions, at:
+73 error     <http://github.com/npm/npm/issues>
+74 error System Darwin 13.4.0
+75 error command "node" "/usr/local/bin/npm" "install"
+76 error cwd /Applications/MAMP/htdocs/bobalbert/wp-content/themes/balbertfoundation
+77 error node -v v0.10.32
+78 error npm -v 1.4.28
+79 verbose exit [ 1, true ]
